@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0d1b2a, #1b263b, #274c77);
+  color: #e0e1dd;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+header img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.1);
+}
+a {
+  color: #4dabf7;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
